@@ -109,7 +109,7 @@ export class PhongMaterial extends Material3
         this.gl.uniformMatrix4fv(this.modelUniform, false, worldMatrix.mat);
         this.gl.uniformMatrix4fv(this.viewUniform, false, camera.viewMatrix.mat);
         this.gl.uniformMatrix4fv(this.projectionUniform, false, camera.projectionMatrix.mat);
-        this.gl.uniformMatrix4fv(this.normalUniform, false, worldMatrix.inverse().transpose().mat);
+        this.gl.uniformMatrix4fv(this.normalUniform, false, worldMatrix.getInverse().getTranspose().mat);
 
         // Set the material property uniforms
         this.gl.uniform3f(this.kAmbientUniform, this.ambientColor.r, this.ambientColor.g, this.ambientColor.b);
