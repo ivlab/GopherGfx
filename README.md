@@ -1,5 +1,8 @@
 # GopherGfx for Prof. Keefe's CSci-4611 Course 
-This version of GopherGfx is includes some small modifications to best support the learning objectives in Prof. Keefe's CSci-4611 course sections.
+This version of GopherGfx is includes some small modifications to best support the learning objectives in Prof. Keefe's CSci-4611 course sections.  You can view this GopherGfx sourcecode and auto-generated documentation online:
+
+Source code: [https://github.com/CSCI-4611-Fall-2024/GopherGfx](https://github.com/CSCI-4611-Fall-2024/GopherGfx)
+Online documentation: [https://csci-4611-fall-2024.github.io/GopherGfx/](https://csci-4611-fall-2024.github.io/GopherGfx/)
 
 
 ## API by Topic
