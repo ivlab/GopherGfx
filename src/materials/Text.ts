@@ -114,10 +114,12 @@ export class Text extends Texture
                 this.textCanvas.strokeText(this.text, this.width / 2, this.height / 2);
             }
 
-            this.gl.activeTexture(this.gl.TEXTURE0 + this.id);
+            this.gl.activeTexture(this.gl.TEXTURE0);
             this.gl.bindTexture(this.gl.TEXTURE_2D, this.texture);
             this.gl.texImage2D(this.gl.TEXTURE_2D, 0, this.gl.RGBA, this.gl.RGBA, this.gl.UNSIGNED_BYTE, this.textCanvas.canvas);
             this.gl.generateMipmap(this.gl.TEXTURE_2D);
+
+            this.gl.bindTexture(this.gl.TEXTURE_2D, null);
         }
     }
 }
