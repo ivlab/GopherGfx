@@ -2,7 +2,7 @@
 This version of GopherGfx is includes some small modifications to best support the learning objectives in Prof. Keefe's CSci-4611 course sections.  You can view this GopherGfx sourcecode and auto-generated documentation online:
 
 * Source code: https://github.com/ivlab/GopherGfx
-* Online documentation: 
+* Online documentation: https://ivlab.github.io/GopherGfx/
 
 
 ## API by Topic
