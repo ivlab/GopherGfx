@@ -1,5 +1,10 @@
 # GopherGfx for Prof. Keefe's CSci-4611 Course 
-This version of GopherGfx is includes some small modifications to best support the learning objectives in Prof. Keefe's CSci-4611 course sections.  You can view this GopherGfx sourcecode and auto-generated documentation online:
+
+GopherGfx is a high-level scene graph library written in TypeScript and WebGL2. It was originally written by Prof. Evan Suma Rosenberg.
+
+This version of GopherGfx includes some small modifications to best support the learning objectives in Prof. Dan Keefe's CSci-4611: Programming Interactive Computer Graphics and Games at the University of Minnesota - Twin Cities. 
+
+You can view this GopherGfx's source code and auto-generated documentation online:
 
 * Source code: https://github.com/ivlab/GopherGfx
 * Online documentation: https://ivlab.github.io/GopherGfx/
@@ -88,12 +93,6 @@ Additional:
 * {@link TextFileLoader}
 * {@link StringParser}
 * {@link FileWriter}
-
-
----
-# GopherGfx
-
-GopherGfx is a high-level scene graph library written in TypeScript and WebGL2.  It was written by [Evan Suma Rosenberg](https://illusioneering.cs.umn.edu/) and has been adopted by several instructors for teaching CSCI 4611: Programming Interactive Computer Graphics and Games at the University of Minnesota.
 
 ## License
 
